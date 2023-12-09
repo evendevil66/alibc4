@@ -1,9 +1,11 @@
 # alibc4
 
+[![Pub Version](https://img.shields.io/pub/v/alibc4)](https://pub.dev/packages/alibc4.svg)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-brightgreen.svg)](https://github.com/evndevil66/alibc4)
 ![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
-alibc4 是一个用于在 Flutter 中集成阿里百川 4.x SDK 的插件。
-![Image text](https://raw.githubusercontent.com/evendevil66/alibc4/master/images/example.jpg)
+
+alibc4 是一个用于在 Flutter 中集成阿里百川 4.x SDK 的插件。免费的star支持一下。
 
 ## 版本信息
 
@@ -13,8 +15,16 @@ alibc4 是一个用于在 Flutter 中集成阿里百川 4.x SDK 的插件。
 ## 安装
 
 在你的 `pubspec.yaml` 文件中添加 alibc4 依赖：
+```yaml
+#git集成，推荐使用此方式，包含ios和安卓
+dependencies:
+  alibc4:
+    git:
+      url: git://github.com/evendevil66/alibc4.git
+```
 
 ```yaml
+#pub集成，因包体大小限制，未集成ios资源，可自行下载ios sdk后手动导入至插件的ios工程下（bundle、framework）
 dependencies:
   alibc4: ^1.0.0
 ```
@@ -69,4 +79,7 @@ alibc.init().then((map) {
 
 //其他使用方法可参见example的main.dart代码
 ```
+
+## 测试图
+![Image text](https://raw.githubusercontent.com/evendevil66/alibc4/master/images/example.jpg)
 

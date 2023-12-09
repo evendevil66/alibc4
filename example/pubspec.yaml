@@ -31,7 +31,8 @@ dependencies:
   flutter:
     sdk: flutter
   alibc4:
-    path: ../
+    git:
+      url: git://github.com/evendevil66/alibc4.git
 
 
   # The following adds the Cupertino Icons font to your application.

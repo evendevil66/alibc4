@@ -1,7 +1,7 @@
 name: alibc4
 description: flutter阿里百川4.x插件
 version: 1.0.0
-homepage: 'https://example.com'
+homepage: 'https://github.com/evendevil66/alibc4'
 
 environment:
   sdk: '>=3.0.0 <4.0.0'
