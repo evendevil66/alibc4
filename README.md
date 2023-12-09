@@ -1,6 +1,6 @@
 # alibc4
 
-[![Pub Version](https://img.shields.io/pub/v/alibc4)](https://pub.dev/packages/alibc4.svg)
+[![Pub Version](https://img.shields.io/pub/v/alibc4)](https://pub.dev/packages/alibc4)
 [![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-brightgreen.svg)](https://github.com/evendevil66/alibc4)
 ![GitHub license](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
 
