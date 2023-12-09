@@ -55,6 +55,35 @@ dependencies:
 android.enableResourceOptimizations=false
 ```
 
+在AndroidManifest.xml中添加以下内容
+
+```xml
+<queries>
+    <package android:name="com.taobao.taobao" />
+    <package android:name="com.tmall.wireless" />
+</queries>
+
+
+```
+
+在Application中添加以下内容
+
+```text
+tools:replace="android:label,android:allowBackup,android:name"
+android:allowBackup="true"
+
+<activity
+android:name="com.alibaba.alibclinkpartner.smartlink.ALPEntranceActivity"
+android:exported="false">
+</activity>
+
+<receiver
+android:name="com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver"
+android:exported="false">
+</receiver>
+```
+
+
 #### IOS
 
 iOS安全图片直接放置在iOS工程Runner目录下
